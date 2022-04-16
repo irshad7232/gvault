@@ -1,20 +1,23 @@
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
+  // Future<void> test() async {
+  //   await storage.write(key: 'irshad', value: 'irshadkp');
 
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
-  }
+  //   String? value = await storage.read(key: 'irshad');
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
+  //   if (value != null) {
+  //     print(value);
+  //   } else {
+  //     print('value is null');
+  //   }
+  // }
 
-  @override
-  void onClose() {}
-  void increment() => count.value++;
+  // @override
+  // void onInit() async {
+  //   _getAndroidOptions();
+  //   await test();
+  //   super.onInit();
+  // }
 }

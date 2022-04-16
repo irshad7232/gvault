@@ -7,6 +7,7 @@ import '../controllers/home_controller.dart';
 class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
+    controller.initialized;
     return Scaffold(
       appBar: AppBar(
         title: Text('HomeView'),

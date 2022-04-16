@@ -7,6 +7,7 @@ import '../controllers/splash_controller.dart';
 class SplashView extends GetView<SplashController> {
   @override
   Widget build(BuildContext context) {
+    controller.initialized;
     return Scaffold(
       appBar: AppBar(
         title: Text('SplashView'),
