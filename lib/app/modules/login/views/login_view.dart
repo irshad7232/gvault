@@ -7,6 +7,7 @@ import '../controllers/login_controller.dart';
 class LoginView extends GetView<LoginController> {
   @override
   Widget build(BuildContext context) {
+    controller.initialized;
     return Scaffold(
       appBar: AppBar(
         title: Text('LoginView'),
