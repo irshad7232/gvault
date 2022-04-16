@@ -15,6 +15,23 @@ class GlobalFile {
   });
 }
 
+class Bs64File {
+  int? id;
+  final FileType fileType;
+  final String bs64;
+
+  final DateTime dateTime;
+  IsFavorite? isFav;
+
+  Bs64File({
+    this.id,
+    required this.fileType,
+    required this.bs64,
+    required this.dateTime,
+    this.isFav = IsFavorite.no,
+  });
+}
+
 enum IsFavorite {
   yes, // 0
   no, // 1
