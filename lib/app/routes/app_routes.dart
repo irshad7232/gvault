@@ -7,6 +7,7 @@ abstract class Routes {
   static const SPLASH = _Paths.SPLASH;
   static const LOGIN = _Paths.LOGIN;
   static const SET_KEY = _Paths.SET_KEY;
+  static const ADD_FILE = _Paths.ADD_FILE;
 }
 
 abstract class _Paths {
@@ -15,4 +16,5 @@ abstract class _Paths {
   static const SPLASH = '/splash';
   static const LOGIN = '/login';
   static const SET_KEY = '/set-key';
+  static const ADD_FILE = '/add-file';
 }

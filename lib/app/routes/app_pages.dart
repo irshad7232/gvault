@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../modules/add_file/bindings/add_file_binding.dart';
+import '../modules/add_file/views/add_file_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/login/bindings/login_binding.dart';
@@ -36,6 +38,11 @@ class AppPages {
       name: _Paths.SET_KEY,
       page: () => SetKeyView(),
       binding: SetKeyBinding(),
+    ),
+    GetPage(
+      name: _Paths.ADD_FILE,
+      page: () => AddFileView(),
+      binding: AddFileBinding(),
     ),
   ];
 }
